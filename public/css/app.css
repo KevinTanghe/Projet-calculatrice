@@ -1,1 +1,43 @@
-/* No CSS */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+section {
+  background-color: grey;
+  width: 200px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  text-align: right;
+}
+
+#container {
+  display: flex;
+}
+
+.containerChiffre {
+  display: flex;
+  flex-direction: column;
+}
+
+.chiffre {
+  padding: 15px;
+  margin: 6px;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+}
+
+.formule {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+}
